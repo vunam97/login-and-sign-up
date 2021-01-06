@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, intial-sacle=1.0">
+    <title>Side login & Registration Bar</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="shortcut icon" href="images/fav-icon.png">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+</head>
+<body>
+    <section class="main">
+        <!-- img ---------------------->
+        <div class="main-img">
+            <img src="images/model.svg">
+        </div>
+
+        <!-- Text & btn --------------------------------->
+        <div class="text-btns">
+            <p>Hello tôi là Nam</p>
+            <!-- login & sign up btns ---------------->
+            <div class="btns">
+                <a href="#" class="login-btn">Login</a>
+                <a href="#" class="sign-up-btn">Sign up</a>
+            </div>
+            
+            <!-- login-with-social -------------->
+            <span>Hoặc mạng xã hội</span>
+            <!-- Social --------->
+            <div class="via-social">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-google"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <!-- side-login-bar ----------->
+        <div class="side-login">
+            <!-- cancel-btn -------------->
+            <a href="" class="login-cancel-btn">
+                <i class="fas fa-times"></i>
+            </a>
+            <!-- heading ------->
+            <strong>Sign in</strong>
+            <!-- form ------------------------------->
+            <form>
+                <!-- email --------------------------------------->
+                <label for="">Email<samp>*</samp></label>
+                <div class="email">
+                    <i class="far fa-paper-plane"></i>
+                    <input type="email" name="email" required>
+                </div>
+                 <!-- password --------------------------------------->
+                 <label for="">Password<samp>*</samp></label>
+                 <div class="password">
+                     <i class="fas fa-lock"></i>
+                     <input type="password" name="password" required>
+                 </div>
+                 <!-- login-btn --------------->
+                 <input type="submit" name="login" class="login" value="login">
+                 <!-- forget ---------------------->
+                 <a href="#" class="forget">Forget your password?</a>
+            </form>
+            <!-- relative-text  -------------------------------------------->
+            <div class="relative-text">
+                <span>Wellcome to this side</span>
+                <p>Learn how to make side login and registration form bar using HTML, CSS, and jQuery. You will easily create side login and sign up form bar by following this YouTube video tutorial.</p>
+            </div>
+        </div>
+
+        <!-- side-sign-up-bar ----------->
+        <div class="side-sign-up">
+            <!-- cancel-btn -------------->
+            <a href="" class="sign-up-cancel-btn">
+                <i class="fas fa-times"></i>
+            </a>
+            <!-- heading ------->
+            <strong>Sign up</strong>
+            <!-- form ------------------------------->
+            <form>
+                <!-- full name --------------------------------------->
+                <label for="">Full name<samp>*</samp></label>
+                <div class="name">
+                    <i class="fas fa-copy"></i>
+                    <input type="text" name="fullname" required>
+                </div>
+                <!-- email --------------------------------------->
+                <label for="">Email<samp>*</samp></label>
+                <div class="email">
+                    <i class="far fa-paper-plane"></i>
+                    <input type="email" name="email" required>
+                </div>
+                <!-- password --------------------------------------->
+                <label for="">Password<samp>*</samp></label>
+                <div class="password">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="password" required>
+                </div>
+                <!-- sign-up-btn --------------->
+                <input type="submit" name="sign-up" class="sign-up" value="Sign up">
+            </form>
+            <!-- relative-text  -------------------------------------------->
+            <div class="relative-text">
+                <span>Sign up for better experience</span>
+                <p>Learn how to make side login and registration form bar using HTML, CSS, and jQuery. You will easily create side login and sign up form bar by following this YouTube video tutorial.</p>
+            </div>
+        </div>
+    </section>
+    <!-- jquery ----------------------->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- javascript -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
